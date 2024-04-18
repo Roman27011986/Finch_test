@@ -1,0 +1,16 @@
+.field {
+    &__header {
+        display: flex;
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(59px, 58px));
+        grid-row-gap: 14px;
+        justify-content: space-between;
+    }
+
+    &__text {
+        margin-right: 5px;
+    }
+}

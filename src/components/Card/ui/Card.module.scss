@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 296px;
+    padding: 15px 10px 25px 10px;
+
+    background: white;
+    border-radius: 5px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
